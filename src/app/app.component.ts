@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-
+// import { Comment } from '@angular/compiler';
+// import { Post } from './Post';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'postsAngular';
+//   comments: Comment[] = [];
+// post : Post[] = [];}
 }

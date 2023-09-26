@@ -6,18 +6,22 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { GetpostsComponent } from './getposts/getposts.component';
 import { FormsModule } from '@angular/forms';
+import { TagInputModule } from 'ngx-chips';
+import { NgChipsComponent } from './ng-chips/ng-chips/ng-chips.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    GetpostsComponent
+    GetpostsComponent,
+    NgChipsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
         HttpClientModule,
-        FormsModule
+        FormsModule,
+        TagInputModule
 
   ],
   providers: [],
